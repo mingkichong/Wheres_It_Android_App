@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/main_activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/main_activity_horizontal_margin"
+    tools:context="net.mingkichong.apps.wherewasit.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="@color/gray"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/main_activity_locate_image_button"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/main_activity_button_length"
+            android:layout_gravity="center_vertical|bottom"
+            android:layout_margin="2dp"
+            android:background="@color/dark_gray"
+            android:padding="@dimen/main_activity_button_image_padding"
+            android:scaleType="fitCenter"
+            android:src="@drawable/locate_256" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_activity_middle_divide_space"
+        android:layout_marginBottom="@dimen/main_activity_middle_divide_space"
+        android:layout_marginTop="@dimen/main_activity_middle_divide_space"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="@color/gray"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/main_activity_record_location_image_button"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/main_activity_button_length"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:background="@color/dark_gray"
+            android:padding="@dimen/main_activity_button_image_padding"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_loc_256"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="2dp" />
+
+        <ImageButton
+            android:id="@+id/main_activity_record_with_image_image_button"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/main_activity_button_length"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:background="@color/dark_gray"
+            android:padding="@dimen/main_activity_button_image_padding"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_256"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_activity_middle_divide_space"
+        android:layout_marginBottom="@dimen/main_activity_middle_divide_space"
+        android:layout_marginTop="@dimen/main_activity_middle_divide_space"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="@color/gray"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/main_activity_clear_location_image_button"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/main_activity_button_length"
+            android:layout_gravity="top|center"
+            android:layout_margin="2dp"
+            android:background="@color/dark_gray"
+            android:padding="@dimen/main_activity_button_image_padding"
+            android:scaleType="fitCenter"
+            android:src="@drawable/erase_256" />
+    </LinearLayout>
+
+</LinearLayout>

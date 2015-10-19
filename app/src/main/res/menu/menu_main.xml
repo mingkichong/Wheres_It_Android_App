@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.mingkichong.apps.wherewasit.MainActivity">
+    <item
+        android:id="@+id/main_activity_menu_google_play_licence"
+        android:orderInCategory="100"
+        android:title="@string/menu_google_play_licence"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main_activity_menu_about"
+        android:orderInCategory="100"
+        android:title="@string/menu_about"
+        app:showAsAction="never" />
+
+</menu>

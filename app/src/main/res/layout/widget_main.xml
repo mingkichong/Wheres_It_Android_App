@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/widgetBackground"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/imageButtonRecordLocation"
+        android:layout_width="@dimen/widget_button_length"
+        android:layout_height="@dimen/widget_button_length"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="-5dp"
+        android:layout_marginEnd="-5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_loc_144" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRecordImageLocation"
+        android:layout_width="@dimen/widget_button_length"
+        android:layout_height="@dimen/widget_button_length"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_144" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/widget_button_length"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:id="@+id/textViewAddress"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_textview_address_height"
+            android:background="@color/addressTextView"
+            android:duplicateParentState="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical|center_horizontal"
+
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="@dimen/widget_textview_address_fontsize">
+
+            <requestFocus
+                android:duplicateParentState="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewCoordinate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_textview_coordinates_height"
+            android:background="@color/coordinateTextView"
+            android:duplicateParentState="false"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical|center_horizontal"
+
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="@dimen/widget_textview_coordinates_fontsize"
+            android:fontFamily="sans-serif-thin"
+            android:textStyle="normal">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

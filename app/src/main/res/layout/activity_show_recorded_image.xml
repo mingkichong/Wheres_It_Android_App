@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/show_recorded_horizontal_margin"
+    android:paddingTop="@dimen/show_recorded_horizontal_margin"
+    tools:context="net.mingkichong.apps.wherewasit.MapMarkerInfoOptionsWithImageActivity">
+
+
+    <!--https://github.com/jasonpolites/gesture-imageview-->
+    <com.polites.android.GestureImageView
+        android:id="@+id/show_recorded_image_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/show_recorded_image_image_view_height"
+        gesture-image:max-scale="10.0"
+        gesture-image:min-scale="0.1"
+        gesture-image:recycle="true"
+        gesture-image:strict="false" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/show_recorded_image_horizontal_margin" />
+
+    <Button
+        android:id="@+id/show_recorded_image_option_get_me_there_button"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/show_recorded_image_button_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@color/dark_gray"
+        android:text="@string/info_option_activity_get_me_there_button_text"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/show_recorded_image_horizontal_margin" />
+
+    <Button
+        android:id="@+id/show_recorded_image_option_copy_location_button"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/show_recorded_image_button_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@color/dark_gray"
+        android:text="@string/info_option_activity_copy_location_button_text"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/show_recorded_image_horizontal_margin" />
+
+    <Button
+        android:id="@+id/show_recorded_image_option_share_location_button"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/show_recorded_image_button_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@color/dark_gray"
+        android:text="@string/info_option_activity_share_location_button_text"
+        android:textColor="@color/white" />
+
+</LinearLayout>

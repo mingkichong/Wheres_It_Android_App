@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="themeGray">#888A9199</color>-->
+    <!--<color name="themeLightGray">#88eaeaea</color>-->
+    <!--<color name="themeDarkGray">#883f434b</color>-->
+
+    <color name="addressTextView">#8896CBFF</color>
+    <color name="coordinateTextView">#88FFD18F</color>
+    <color name="widgetBackground">#883f434b</color>
+
+    <color name="white">#CCFFFFFF</color>
+    <color name="red">#CCFF8D8B</color>
+    <color name="orange">#CCFFD18F</color>
+    <color name="pink">#CCFFD1D0</color>
+    <color name="green">#CC9AE89E</color>
+    <color name="purple">#CCA6A4E8</color>
+    <color name="blue">#CC96CBFF</color>
+    <color name="gray">#CC8A9199</color>
+    <color name="dark_gray">#CC3f434b</color>
+    <color name="light_gray">#CCeaeaea</color>
+    <color name="light_blue">#CCe0ffff</color>
+    <color name="trans">#80FFFFFF</color>
+
+    <color name="black">#CC222222</color>
+    <color name="opaque_white">#FFFFFFFF</color>
+
+</resources>
