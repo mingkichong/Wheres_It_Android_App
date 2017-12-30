@@ -1,0 +1,1 @@
+"Where's It?" app is now available on [Google Play](https://play.google.com/store/apps/details?id=net.mingkichong.apps.wherewasit)
